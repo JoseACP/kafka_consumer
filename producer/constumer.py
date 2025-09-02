@@ -179,7 +179,8 @@ if __name__ == "__main__":
     try:
         list_topics()
         print("Ahora consumiendo mensajes del tópico player-data-ftmx:")
-        consume_messages('player-data-ftmx, payment-transfers-ftmx, casino-bets-ftmx, sport-bets-ftmx, player-login-records-ftmx')
+        consume_messages('payment-transfers-ftmx, casino-bets-ftmx, sport-bets-ftmx, player-login-records-ftmx, payment-transfers-ftmx, player-login-ftmx')
+        # Cambiarlo a solo llamar de uno en uno si agregamos todos van a tronar
         list_topics()
         print("Connection successful!")
     except Exception as e:
