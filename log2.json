@@ -1,0 +1,1 @@
+Consumer error: KafkaError{code=TOPIC_AUTHORIZATION_FAILED,val=29,str="Subscribed topic not available: player-data-ftmx, payment-transfers-ftmx, casino-bets-ftmx, sport-bets-ftmx, player-login-records-ftmx: Broker: Topic authorization failed"}
